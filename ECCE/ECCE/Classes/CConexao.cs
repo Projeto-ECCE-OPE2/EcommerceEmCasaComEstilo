@@ -9,10 +9,10 @@ namespace ECCE.Classes
     {
         public static string Get_StringConexao()
         {
-            string Host = "localhost";
+            string Host = "mysqlsrv.cy1mxgpswikk.us-east-2.rds.amazonaws.com";
             string Banco = "ecce";
-            string Usuario = "root";
-            string Senha = "1234";
+            string Usuario = "admin";
+            string Senha = "Jc080912";
             return "Data Source = " + Host + "; Initial Catalog = " + Banco + "; User Id = " + Usuario + "; Password = " + Senha + "; ";
         }
     }
